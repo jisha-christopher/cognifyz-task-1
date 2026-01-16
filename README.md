@@ -29,20 +29,7 @@ It shows how user input from an HTML form is sent to a server, processed, and dy
 
 ---
 
-## 📂 Project Structure
 
-```
-task1-server
-│
-├── server.js
-├── package.json
-├── views
-│   └── index.ejs
-└── public
-    └── style.css
-```
-
----
 
 ## ⚙️ How It Works
 
@@ -52,49 +39,9 @@ task1-server
 4. EJS dynamically renders the response HTML.
 5. The updated content is displayed in the browser.
 
----
 
-## ▶️ How to Run the Project
-
-1. Clone the repository
-2. Open the project folder in Visual Studio Code
-3. Open the terminal and run:
-
-   ```bash
-   npm install
-   node server.js
-   ```
-4. Open a browser and visit:
-
-   ```
-   http://localhost:3000
-   ```
-
----
-
-## ✅ Output
-
-* A form is displayed in the browser.
-* After submitting the form, the server dynamically renders a greeting message with the user’s input.
-
----
-
-## 📚 Learning Outcomes
-
-* Basic understanding of backend development
-* Hands-on experience with Express routing
-* Server-side rendering using EJS
-* Handling form data securely on the server
-
----
 
 ## 👩‍💻 Author
 
 **Jisha Christopher**
-
----
-
-## 📄 License
-
-This project is for educational purposes.
 
