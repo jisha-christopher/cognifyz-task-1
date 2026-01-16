@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 1</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Server Side Rendering</h1>
+
+  <form action="/submit" method="POST">
+    <input type="text" name="username" placeholder="Enter your name" required>
+    <button type="submit">Submit</button>
+  </form>
+
+  <% if (name) { %>
+    <h2>Hello, <%= name %> 👋</h2>
+  <% } %>
+</body>
+</html>
